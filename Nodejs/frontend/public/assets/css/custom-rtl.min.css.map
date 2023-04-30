@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "sources": [
+        "custom.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;;;;;;CAAA",
+    "file": "custom-rtl.min.css",
+    "sourcesContent": [
+        "/*\r\nTemplate Name: Toner eCommerce + Admin Node js Template\r\nAuthor: Themesbrand\r\nWebsite: https://themesbrand.com/\r\nContact: support@themesbrand.com\r\nFile: Custom Css File\r\n*/      "
+    ]
+}

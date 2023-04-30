@@ -1,0 +1,45 @@
+<%- include ('./main.ejs') %>
+
+    <head>
+
+        <%- include ('./title-meta.ejs') %>
+            <%- HeaderCss %>
+                <%- include ('./head-css.ejs') %>
+
+    </head>
+
+    <body>
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            <%- include ('./menu') %>
+
+                <!-- ============================================================== -->
+                <!-- Start right Content here -->
+                <!-- ============================================================== -->
+                <div class="main-content">
+
+                    <div class="page-content">
+                        <div class="container-fluid">
+                            <%- include ('./page-title') %>
+                                <%- body%>
+                        </div>
+                        <!-- container-fluid -->
+                    </div>
+                    <!-- End Page-content -->
+                    <%- include ('./footer') %>
+                </div>
+                <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <%- include ('./customizer') %>
+            <%- include ('./vendor-scripts') %>
+                <%- FooterJs %>
+                    <!-- App js -->
+                    <script src="../assets/js/app.js"></script>
+    </body>
+
+    </html>

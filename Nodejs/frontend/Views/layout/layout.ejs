@@ -1,0 +1,17 @@
+<%- include ('./main.ejs') %>
+
+    <head>
+        <%- include ('./title-meta.ejs') %>
+            <%- HeaderCss %>
+                <%- include ('./head-css.ejs') %>
+    </head>
+
+    <body>
+        <%- include ('./menu') %>
+            <%- body%>
+                <%- include ('./footer') %>
+                    <%- include ('./vendor-scripts') %>
+                        <%- FooterJs %>
+    </body>
+
+    </html>
